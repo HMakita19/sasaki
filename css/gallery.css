@@ -79,3 +79,12 @@ header ul li {
   font-weight: bold;
   text-align: center;
 }
+.icon_img {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+}
+.link_list i{
+  color: #fff;
+  font-size: 0.8em;
+}
