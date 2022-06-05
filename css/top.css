@@ -1,0 +1,56 @@
+
+body * {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  }
+body{
+  background: linear-gradient(90deg, #ff38afaa, #44f3ffaf);
+}
+a {
+  text-decoration:none; 
+}
+.container {
+  margin-bottom: 30px;
+}
+
+header h1{
+  font-size: 40px;
+  font-family: 'Press Start 2P', cursive;
+  color: #fff;
+}
+.menu {
+  text-align: center;
+  display: flex;
+  list-style: none;
+  margin: 0 auto;
+  padding: 10px;
+}
+header ul li {
+  display: flex;
+  flex: 1;
+}
+.button{
+  flex: auto;
+  text-align: center;
+  margin: 0 10px;
+  color: #fff;
+  font-size: 0.7em;
+}
+.greeting1 {
+  font-size: 2.5em;
+  color: #fff;
+  font-family: 'DotGothic16', sans-serif;
+}
+.greeting2 {
+  font-size: 2.5em;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+footer p {
+  text-align: right;
+}
+hr {
+  text-decoration: 50px solid;
+}
