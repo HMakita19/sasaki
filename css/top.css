@@ -15,9 +15,10 @@ a {
   margin-bottom: 30px;
 }
 
-header h1{
-  font-size: 40px;
-  font-family: 'Press Start 2P', cursive;
+.title{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'DotGothic16', sans-serif;
   color: #fff;
 }
 .menu {
@@ -44,9 +45,8 @@ header ul li {
   font-family: 'DotGothic16', sans-serif;
 }
 .greeting2 {
-  font-size: 2.5em;
+  font-size: 2.5rem;
   color: #fff;
-  font-family: 'Ubuntu', sans-serif;
 }
 footer p {
   text-align: right;
