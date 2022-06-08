@@ -8,7 +8,7 @@ body * {
 body{
   background: linear-gradient(90deg, #ff38afaa, #44f3ffaf);
 }
-a {
+body a {
   text-decoration:none; 
 }
 .container {

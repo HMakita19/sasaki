@@ -1,8 +1,12 @@
 body *{
   box-sizing: border-box;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 body {
-  background: linear-gradient(90deg, #700043, #006269);
+  background: linear-gradient(-90deg, #700043, #006269);
 }
 body * a {
   text-decoration: none;
@@ -77,6 +81,8 @@ header ul li {
   font-size: 5.5vw;
   transform: rotate(-8deg);
   font-weight: bold;
+  font-family: 'DotGothic16', sans-serif;
+  letter-spacing: 0.2em;
   text-align: center;
 }
 .icon_img {
@@ -113,28 +119,28 @@ header ul li {
   0%{
     box-shadow:
       0 0 10px #ff1177,
-      0 0 20px #d6249f,
+      0 0 20px #e326a7,
       0 0 30px #285aeb;
   }
   100%{
     box-shadow: 
     0 0 5px #ff1177,
-    0 0 10px #d6249f,
+    0 0 10px #e326a7,
     0 0 15px #285aeb;
   }
 }
 @keyframes second_color {
   0%{
     box-shadow:
-      0 0 10px #ff1177,
-      0 0 20px #ff6666,
-      0 0 30px #7ccdff;
+      0 0 10px #11ffff,
+      0 0 20px #3985ff,
+      0 0 30px #ff70f3;
   }
   100%{
     box-shadow: 
-    0 0 5px #ff1177,
-    0 0 10px #ff6666,
-    0 0 15px #7ccdff;
+    0 0 5px #11ffff,
+    0 0 10px #3985ff,
+    0 0 15px #ff70f3;
   }
 }
 @keyframes third_color {
