@@ -84,6 +84,10 @@ header ul li {
   height: 50px;
   padding: 5px;
 }
+.link_list div {
+  margin: 10px auto;
+  padding: 5px;
+}
 .link_list i{
   color: #fff;
   font-size: 0.8em;
