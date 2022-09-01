@@ -7,98 +7,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;family=DotGothic16&amp;family=EB+Garamond&amp;family=Gilda+Display&amp;family=Holtwood+One+SC&amp;family=Press+Start+2P&amp;family=Rubik+Glitch&amp;display=swap"
-      rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&amp;display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- <script src="js/main.js"></script>   -->
     <link rel="stylesheet" href="css/sanitize.css">
-    <link rel="stylesheet" href="css/top.css">
-
-    <title>佐々木拓人</title>
+    <link rel="stylesheet" href="css/index.css">
+    <title>SASAKI TAKUTO</title>
   </head>
 
   <body>
-    <div class="container wrapper">
-      <div class="container-fluid">
-        <header>
-          <div class="row align-items-center ">
-            <div class="col-md-7 text-sm-center">
-              <h1 class="title">SASAKI TAKUTO</h1>
-            </div>
-            <div class="col-md-5 .d-flex">
-              <ul class="menu">
-                <li><a href="index.html" class="button">トップ</a></li>
-                <li><a href="html/gallert.html" class="button">作品紹介</a></li>
-                <li><a href="html/profile.html" class="button">プロフィール</a></li>
-                <li><a href="html/work.html" class="button">コンテンツ</a></li>
-              </ul>
-            </div>
-          </div>
+    <div class="video-wrap">
+      <video src="movie/backMovie.mp4" class="bg-video" poster="ポスター画像" autoplay loop muted playsinline>
+        <img src="#" alt="Placeholder">
+      </video>
+      <div id="body-content">
+        <!-- header -->
+        <header class="fixed-top">
+            <nav class="navbar navbar-expand-sm header-nav">
+              <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                  <img src="img/index/icon.jpg" alt="ロゴアイコン" class="d-inline-block align-text-top top-icon">
+                  <h1 class="header-name">SasakiTakuto</h1>
+                </a>
+                <div class="justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="header-nav-items">
+                      <a class="nav-link active" aria-current="page" href="#">Top</a>
+                    </li>
+                    <li class="header-nav-items">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="header-nav-items">
+                      <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="header-nav-items">
+                      <a class="nav-link" href="#">Profile</a>
+                    </li>
+                    <li class="header-nav-items">
+                      <a class="nav-link" href="#">work</a>
+                    </li>
+                    <li class="header-nav-items">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
         </header>
-      </div>
-      <hr>
-      <main>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 text-md-center">
-              <p class="greeting1">ようこそ！</p>
+
+        <!-- mein -->
+        <main>
+          <article>
+            <div class="container h-100">
+              <div class="main-contents h-100">
+                <ul class="main-list align-items-center h-100">
+                  <li class="main-list-items col">
+                    <img src="https://placehold.jp/400x600.png" alt="">
+                  </li>
+                  <li class="main-list-items col">
+                    <img src="https://placehold.jp/400x600.png" alt="">
+                  </li>
+                  <li class="main-list-items col">
+                    <img src="https://placehold.jp/400x600.png" alt="">
+                  </li>
+                  <li class="main-list-items col">
+                    <img src="https://placehold.jp/400x600.png" alt="">
+                  </li>
+                  <li class="main-list-items col">
+                    <img src="https://placehold.jp/400x600.png" alt="">
+                  </li>
+                </ul>
+              </div>
+            </div>         
+          </article>
+        </main>
+
+        <!-- footer -->
+        <footer class="fixed-bottom">
+          <div class="container-fluid footer-content">
+            <div class="row justify-content-end align-items-center h-100">
+              <div class="col-3 d-flex justify-content-around">
+                <div class="col-md-3 footer-links">
+                  <a href="#">
+                    <img src="https://placehold.jp/50x50.png" alt="メール" class="footer-link-icons">
+                  </a>
+                </div>
+                <div class="col-md-3 footer-links">
+                  <a href="#">
+                    <img src="https://placehold.jp/50x50.png" alt="YouTube" class="footer-link-icons">
+                  </a>
+                </div>
+                <div class="col-md-3 footer-links">
+                  <a href="#">
+                    <img src="https://placehold.jp/50x50.png" alt="Twitter" class="footer-link-icons">
+                  </a>
+                </div>
+                <div class="col-md-3 footer-links">
+                  <a href="#">
+                    <img src="https://placehold.jp/50x50.png" alt="Instagram" class="footer-link-icons">
+                  </a>
+                </div>
+              </div>
+              <div class="col-1 align-self-center ">
+                <p class="copy-right"><small class="fst-italic">&copy; sasaki2022</small></p>
+              </div>
             </div>
-            <div class="col-md-6 text-md-center">
-              <p class="greeting1">Welcome!</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row justify-content-around">
-            <div class="col-sm-4">
-              <p class="greeting3">初めての方も、何度もお越しいただいている方も、ようこそお越しくださいました。</p>
-            </div>
-            <div class="col-sm-4">
-              <p class="greeting4">Whether you are a first time visitor or a repeat visitor, welcome!</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-sm-4">
-              <p class="greeting3">このサイトでは、過去に製作した作品や、私の事などを紹介しています。</p>
-            </div>
-            <div class="col-sm-4">
-              <img src="img/profileImage.jpeg" class="img-fluid" alt="プロフィールアイコン">
-            </div>
-            <div class="col-sm-4">
-              <p class="greeting4">On this site, you will find information about me and the works I have produced in the
-                past.</p>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row justify-content-md-evenly">
-            <div class="col-sm-4">
-              <p class="greeting3">どうぞゆっくりご覧になってください。</p>
-            </div>
-            <div class="col-sm-4">
-              <p class="greeting4">Please take your time to look around.</p>
-            </div>
-          </div>
-        </div>
-      </main>
-      <hr>
-      <div class="container">
-        <footer>
-          <div class="col text-end">
-            <p class="fs-6">© sasaki 2022</p>
           </div>
         </footer>
+
       </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
   </body>
+
 </html>

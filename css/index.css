@@ -1,0 +1,151 @@
+/* 全体設定 */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html, body ,ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body p {
+  font-size: 16px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* 背景動画 */
+.bg-video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -10;
+  background: url('動画読み込みできない時の画像ファイルパス') no-repeat;
+  background-size: cover;
+}
+
+#body-content{
+  position: relative; /*必ず必要*/
+  z-index: 2; /*必ず必要*/
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* header */
+header {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+header , header > div{
+  width: 100%;
+  height: 120px;
+}
+
+.top-icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.header-nav {
+  height: 120px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-name {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.nav-link{
+  color: #fff;
+}
+
+
+/* main */
+main {
+  width: 100%;
+}
+main > article {
+  height: calc(100vh - 220px);
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.main-contents{
+  margin: auto 0;
+}
+
+.main-list{
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none; /* IE, Edge 対応 */
+  margin: auto;
+  width: 100%;
+}
+
+.main-list-items {
+  margin: 0 50px;
+  padding: 10px;
+
+}
+
+
+
+
+/* footer */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.footer-content {
+  height: 100px;
+}
+
+.footer-links {
+  padding: 5px;
+  text-align: center;
+}
+
+.footer-link-icons {
+  width: 50px;
+  height: 50px;
+}
+
+.copy-right {
+  color: #fff;
+}
