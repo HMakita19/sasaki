@@ -1,0 +1,15 @@
+main {
+  padding-top: 120px;
+}
+
+.contents-text{
+  margin: auto;
+  text-align: center;
+}
+.contents-video {
+  margin: auto;
+  text-align: center;
+}
+.contents-group{
+  height: calc(100vh / 2);
+}
