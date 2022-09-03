@@ -1,15 +1,59 @@
+/* 背景画像 */
+.back-img{
+  background-color: rgb(255, 255, 255);
+}
+
+
+
 main {
   padding-top: 120px;
 }
 
-.contents-text{
-  margin: auto;
-  text-align: center;
-}
-.contents-video {
-  margin: auto;
-  text-align: center;
-}
 .contents-group{
-  height: calc(100vh / 2);
+  height: 600px;
+  padding: 20px;
+  background-color: aliceblue;
+  
 }
+
+.contents-text {
+  position: relative;
+  text-align: center;
+  background-color: rgb(100, 100, 100);
+}
+
+.contents-text > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.contents-text h2, .contents-text p {
+  color: #fff;
+}
+
+
+.contents-video {
+  position: relative;
+  text-align: center;
+  background-color: rgb(100, 100, 100);
+}
+
+.contents-video > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.contents-video > div > video {
+  width: 100%;
+  height: 100%;
+}
+
+

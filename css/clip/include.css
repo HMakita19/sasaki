@@ -83,11 +83,11 @@ header , header > div{
   font-size: 1.7rem;
   font-weight: bold;
   margin-left: 10px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .nav-link{
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -114,5 +114,5 @@ footer {
 }
 
 .copy-right {
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
