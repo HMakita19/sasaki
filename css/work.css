@@ -1,0 +1,70 @@
+body {
+  /* background-image: url(../img/kizumonogatari.jpg); */
+  /* background-repeat: no-repeat; */
+  background-color: rgb(140, 140, 140);
+}
+
+main {
+  padding-top: 120px;
+}
+
+main article {
+  height: calc(100vh - 220px);
+}
+
+.link-group {
+  height: 100%;
+}
+
+.link-group {
+  text-align: center;
+  position: relative;
+}
+
+.link-group > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.link-name {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.link-img {
+  position: relative;
+  height: 600px;
+  text-align: end;
+  background-color: aliceblue;
+  border: 1px solid #000;
+  box-shadow: 5px 5px 20px rgb(164, 177, 231);
+}
+
+.link-triangle{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+	border-right: 300px solid rgb(68, 88, 171);
+	border-top: 200px solid transparent;
+	border-bottom: 0 solid transparent;
+}
+
+.link-img > p {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 20px 30px 0;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.link-supplement {
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: end;
+}

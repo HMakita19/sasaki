@@ -1,35 +1,3 @@
-/* 全体設定 */
-html {
-  height: 100%;
-  width: 100%;
-}
-
-html, body ,ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
-}
-
-body * {
-  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
-  padding: 0px;
-  margin: 0px;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body p {
-  font-size: 16px;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
 
 /* 背景動画 */
 .bg-video{
@@ -55,39 +23,6 @@ a {
   text-align:center;
   margin: 0;
   padding: 0;
-}
-
-
-/* header */
-header {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-header , header > div{
-  width: 100%;
-  height: 120px;
-}
-
-.top-icon {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-}
-
-.header-nav {
-  height: 120px;
-  margin: 0;
-  padding: 0;
-}
-
-.header-name {
-  font-size: 1.7rem;
-  font-weight: bold;
-  margin-left: 10px;
-  color: #fff;
-}
-
-.nav-link{
-  color: #fff;
 }
 
 
