@@ -4,7 +4,6 @@
 }
 
 
-
 main {
   padding-top: 120px;
   padding-bottom: 100px;
@@ -73,11 +72,13 @@ main {
   left: 0;
   background-color: rgb(100, 100, 100);
 }
+
 .contents-under-video {
   width: 100%;
   height: 100%;
   padding-top: 50px;
 }
+
 .contents-under-text h2, .contents-under-text p {
   color: #fff;
   align-self: center;
