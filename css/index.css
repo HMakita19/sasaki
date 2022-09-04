@@ -113,6 +113,10 @@ main > article {
   width: 100%;
 }
 
+.main-list::-webkit-scrollbar {
+  display: none;
+}
+
 .main-list-items {
   margin: 0 50px;
   padding: 10px;
