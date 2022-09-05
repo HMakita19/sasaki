@@ -21,12 +21,12 @@
 
 
 // header
-function include_header(rootDir){
+function include_header(root){
   $.ajax({
-      url: rootDir + 'include/header.html', // リクエストを送信するURLを指定
+      url: root + 'include/header.html', // リクエストを送信するURLを指定
       async: false, // 非同期リクエストを無効にする
   }).done(function(header_html){ // 通信が成功したら
-      header_html = header_html.replace(/\{root\}/g, rootDir); // header.htmlの文字列を置き換え
+      header_html = header_html.replace(/\{root\}/g, root); // header.htmlの文字列を置き換え
 
       document.write(header_html); // herder.htmlを表示する
   });
