@@ -35,13 +35,32 @@ main article {
   border-bottom: 2px solid #fff;
 }
 
-.link-img {
+.link{
   position: relative;
-  height: 600px;
+  height: 500px;
   text-align: end;
   background-color: aliceblue;
   border: 1px solid #000;
   box-shadow: 5px 5px 20px rgb(164, 177, 231);
+}
+.link-img {
+  opacity: 0;
+}
+
+.link-img:hover {
+  animation-name: fade-animation;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-animation{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 .link-triangle{
@@ -53,7 +72,7 @@ main article {
 	border-bottom: 0 solid transparent;
 }
 
-.link-img > p {
+.link > p {
   position: absolute;
   bottom: 0;
   right: 0;

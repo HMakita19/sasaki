@@ -29,8 +29,8 @@
 /* main */
 main {
   width: 100%;
-  background-color: aqua;
 }
+
 main > article {
   height: calc(100vh - 220px);
   margin-top: 120px;
